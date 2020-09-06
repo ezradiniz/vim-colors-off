@@ -191,12 +191,3 @@ call s:h("htmlH6",        {"bg": s:bg, "fg": s:norm})
 
 hi link diffRemoved       DiffDelete
 hi link diffAdded         DiffAdd
-
-" Signify, git-gutter
-hi link SignifySignAdd              LineNr
-hi link SignifySignDelete           LineNr
-hi link SignifySignChange           LineNr
-hi link GitGutterAdd                LineNr
-hi link GitGutterDelete             LineNr
-hi link GitGutterChange             LineNr
-hi link GitGutterChangeDelete       LineNr
