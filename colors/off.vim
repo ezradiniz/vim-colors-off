@@ -26,8 +26,8 @@ let s:lighter_black   = { "gui": "#545454", "cterm": "240" }
 let s:subtle_black    = { "gui": "#303030", "cterm": "236" }
 let s:light_gray      = { "gui": "#B2B2B2", "cterm": "249" }
 let s:lighter_gray    = { "gui": "#C6C6C6", "cterm": "251" }
-let s:pink            = { "gui": "#fb007a", "cterm": "9"   }
-let s:dark_red        = { "gui": "#C30771", "cterm": "1"   }
+let s:pink            = { "gui": "#C30771", "cterm": "1"   }
+let s:dark_red        = { "gui": "#cc2d1d", "cterm": "124" }
 let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
 let s:orange          = { "gui": "#D75F5F", "cterm": "167" }
 let s:darker_blue     = { "gui": "#005F87", "cterm": "18"  }
@@ -52,7 +52,7 @@ if &background == "dark"
   let s:purple          = s:light_purple
   let s:cyan            = s:light_cyan
   let s:green           = s:light_green
-  let s:red             = s:light_red
+  let s:red             = s:dark_red
   let s:visual          = s:lighter_black
 else
   let s:bg              = s:actual_white
